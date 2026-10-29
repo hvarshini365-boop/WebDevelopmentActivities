@@ -1,1 +1,353 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maison | Fine Dining Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <a href="#home" class="logo">MAISON<span>.</span></a>
+
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">☰</label>
+
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">Our Story</a>
+            <a href="#menu">Menu</a>
+            <a href="#chefs">Our Chefs</a>
+            <a href="#contact">Contact</a>
+            <a href="#reservation" class="nav-btn">Book a Table</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="eyebrow">AN EXTRAORDINARY DINING EXPERIENCE</p>
+            <h1>Where Every Meal<br>Becomes a <em>Memory.</em></h1>
+            <p class="hero-text">
+                Thoughtfully crafted cuisine, exceptional ingredients,
+                and moments worth savoring.
+            </p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-gold">Explore Our Menu</a>
+                <a href="#reservation" class="btn btn-outline">Reserve a Table</a>
+            </div>
+        </div>
+        <div class="hero-bottom">FINE DINING · SEASONAL INGREDIENTS · TIMELESS FLAVORS</div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1000&q=85"
+                 alt="Elegant restaurant dining table">
+            <div class="image-label">Est. 2015<br><span>Made with passion</span></div>
+        </div>
+
+        <div class="about-content">
+            <p class="eyebrow">OUR STORY</p>
+            <h2>A little passion.<br>A lot of <em>flavor.</em></h2>
+            <p>
+                At Maison, we believe the best meals are more than food.
+                They're conversations that last longer, celebrations that
+                feel warmer, and flavors that bring people together.
+            </p>
+            <p>
+                Inspired by seasonal produce and timeless culinary
+                traditions, every plate tells a story of craftsmanship,
+                creativity, and care.
+            </p>
+            <a href="#chefs" class="text-link">Meet our culinary team ↗</a>
+
+            <div class="stats">
+                <div><strong>10+</strong><span>Years of passion</span></div>
+                <div><strong>25+</strong><span>Signature dishes</span></div>
+                <div><strong>100%</strong><span>Made with care</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section section" id="menu">
+        <div class="section-heading">
+            <p class="eyebrow">A TASTE OF MAISON</p>
+            <h2>Our Signature <em>Menu</em></h2>
+            <p>Seasonal ingredients. Thoughtful preparation. Unforgettable flavor.</p>
+        </div>
+
+        <div class="menu-grid">
+            <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80" alt="Fresh seasonal salad">
+                <div class="menu-info">
+                    <div class="dish-title"><h3>Garden Harvest</h3><span>₹450</span></div>
+                    <p>Fresh greens, roasted vegetables, citrus vinaigrette.</p>
+                    <span class="tag">STARTER</span>
+                </div>
+            </article>
+
+            <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=800&q=80" alt="Chef's gourmet main course">
+                <div class="menu-info">
+                    <div class="dish-title"><h3>The Chef's Plate</h3><span>₹850</span></div>
+                    <p>Seasonal vegetables, aromatic herbs, house-made sauce.</p>
+                    <span class="tag">SIGNATURE</span>
+                </div>
+            </article>
+
+            <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=800&q=80" alt="Creamy pasta dish">
+                <div class="menu-info">
+                    <div class="dish-title"><h3>Truffle Pasta</h3><span>₹690</span></div>
+                    <p>Silky pasta, wild mushrooms, parmesan, truffle oil.</p>
+                    <span class="tag">CHEF'S FAVORITE</span>
+                </div>
+            </article>
+
+            <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80" alt="Freshly baked gourmet pizza">
+                <div class="menu-info">
+                    <div class="dish-title"><h3>Rustic Garden Pizza</h3><span>₹620</span></div>
+                    <p>Hand-stretched dough, basil, mozzarella, tomato.</p>
+                    <span class="tag">WOOD-FIRED</span>
+                </div>
+            </article>
+
+            <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=80" alt="Elegant dessert with fresh fruit">
+                <div class="menu-info">
+                    <div class="dish-title"><h3>Vanilla Panna Cotta</h3><span>₹380</span></div>
+                    <p>Vanilla bean cream, berry compote, seasonal fruit.</p>
+                    <span class="tag">DESSERT</span>
+                </div>
+            </article>
+
+            <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1513558161293-cdaf765edfd7?auto=format&fit=crop&w=800&q=80" alt="Refreshing handcrafted drink">
+                <div class="menu-info">
+                    <div class="dish-title"><h3>Botanical Cooler</h3><span>₹280</span></div>
+                    <p>Fresh citrus, garden herbs, sparkling refreshment.</p>
+                    <span class="tag">BEVERAGE</span>
+                </div>
+            </article>
+        </div>
+        <p class="menu-note">Sample menu and prices — customize these for your restaurant.</p>
+    </section>
+
+    <!-- Ambience Section -->
+    <section class="ambience section">
+        <div class="section-heading">
+            <p class="eyebrow">THE MAISON EXPERIENCE</p>
+            <h2>Made for <em>Moments.</em></h2>
+            <p>Soft lighting, thoughtful details, and an atmosphere that feels like home.</p>
+        </div>
+
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=85" alt="Warm restaurant interior">
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=85" alt="Romantic fine dining table">
+            <img src="https://images.unsplash.com/photo-1515003197210-e0cd7184f8b5?auto=format&fit=crop&w=800&q=85" alt="Beautifully plated cuisine">
+        </div>
+    </section>
+
+    <!-- Chefs Section -->
+    <section class="chefs-section section" id="chefs">
+        <div class="section-heading">
+            <p class="eyebrow">THE HANDS BEHIND THE MAGIC</p>
+            <h2>Meet Our <em>Chefs</em></h2>
+            <p>Passion on the plate begins with people who love what they do.</p>
+        </div>
+
+        <div class="chef-grid">
+            <article class="chef-card">
+                <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=800&q=85" alt="Head chef portrait">
+                <div class="chef-info">
+                    <h3>Arjun Mehta</h3>
+                    <p>Executive Chef</p>
+                    <span>Modern cuisine · Seasonal creations</span>
+                </div>
+            </article>
+
+            <article class="chef-card">
+                <img src="https://images.unsplash.com/photo-1583394293214-28ded15ee548?auto=format&fit=crop&w=800&q=85" alt="Chef specializing in desserts">
+                <div class="chef-info">
+                    <h3>Isabella Roy</h3>
+                    <p>Pastry Chef</p>
+                    <span>Artisan desserts · French patisserie</span>
+                </div>
+            </article>
+
+            <article class="chef-card">
+                <img src="https://images.unsplash.com/photo-1574966393957-bf5c9e9c9f0a?auto=format&fit=crop&w=800&q=85" alt="Chef preparing a gourmet meal">
+                <div class="chef-info">
+                    <h3>Rohan Kapoor</h3>
+                    <p>Sous Chef</p>
+                    <span>Local ingredients · Global flavors</span>
+                </div>
+            </article>
+        </div>
+        <p class="menu-note">Chef names and profiles are illustrative; replace them with your actual team.</p>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials section">
+        <div class="section-heading">
+            <p class="eyebrow">KIND WORDS</p>
+            <h2>Stories from Our <em>Guests</em></h2>
+        </div>
+
+        <div class="review-grid">
+            <article class="review-card">
+                <div class="stars">★★★★★</div>
+                <blockquote>"Every detail felt special, from the beautiful atmosphere to the incredible food. An evening we'll remember."</blockquote>
+                <h4>Priya S.</h4>
+                <span>Guest testimonial sample</span>
+            </article>
+
+            <article class="review-card featured-review">
+                <div class="stars">★★★★★</div>
+                <blockquote>"A perfect blend of creativity and comfort. The service was warm, and every dish was a little work of art."</blockquote>
+                <h4>Rahul M.</h4>
+                <span>Guest testimonial sample</span>
+            </article>
+
+            <article class="review-card">
+                <div class="stars">★★★★★</div>
+                <blockquote>"Beautiful interiors, thoughtful service, and wonderful flavors. Definitely a place for special occasions."</blockquote>
+                <h4>Ananya R.</h4>
+                <span>Guest testimonial sample</span>
+            </article>
+        </div>
+    </section>
+
+    <!-- Reservation -->
+    <section class="reservation-section section" id="reservation">
+        <div class="reservation-info">
+            <p class="eyebrow">YOUR TABLE AWAITS</p>
+            <h2>Let's make it<br><em>an occasion.</em></h2>
+            <p>Whether it's a quiet dinner for two or a celebration with friends, we'd love to welcome you.</p>
+
+            <div class="contact-detail">
+                <span>CALL US</span>
+                <p>+91 98765 43210</p>
+            </div>
+            <div class="contact-detail">
+                <span>EMAIL</span>
+                <p>hello@maison.example</p>
+            </div>
+        </div>
+
+        <form class="reservation-form" action="#" method="post">
+            <h3>Reserve Your Table</h3>
+            <p class="form-subtitle">Please share your dining preferences.</p>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="time">Preferred Time</label>
+                    <select id="time" name="time" required>
+                        <option value="">Select time</option>
+                        <option>12:00 PM</option>
+                        <option>1:00 PM</option>
+                        <option>2:00 PM</option>
+                        <option>6:00 PM</option>
+                        <option>7:00 PM</option>
+                        <option>8:00 PM</option>
+                        <option>9:00 PM</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="guests">Number of Guests</label>
+                <select id="guests" name="guests" required>
+                    <option value="">Select guests</option>
+                    <option>1 Guest</option>
+                    <option>2 Guests</option>
+                    <option>3 Guests</option>
+                    <option>4 Guests</option>
+                    <option>5 Guests</option>
+                    <option>6 Guests</option>
+                    <option>7+ Guests</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Special Requests</label>
+                <textarea id="message" name="message" rows="3" placeholder="Celebration, dietary needs, seating..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-gold submit-btn">Request Reservation ↗</button>
+            <p class="form-note">Demo form only. Connect a backend to receive reservations.</p>
+        </form>
+    </section>
+
+    <!-- Location and Hours -->
+    <section class="visit-section section" id="contact">
+        <div class="section-heading">
+            <p class="eyebrow">COME SAY HELLO</p>
+            <h2>Find Your Way to <em>Us</em></h2>
+        </div>
+
+        <div class="visit-grid">
+            <div class="visit-card">
+                <span class="visit-icon">⌖</span>
+                <h3>Our Location</h3>
+                <p>12 Garden Avenue<br>Your City, India</p>
+                <a href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer" class="text-link">Get Directions ↗</a>
+            </div>
+
+            <div class="visit-card">
+                <span class="visit-icon">◷</span>
+                <h3>Opening Hours</h3>
+                <p>Monday – Friday: 12 PM – 10 PM<br>
+                   Saturday – Sunday: 11 AM – 11 PM</p>
+                <span class="hours-note">Hours shown are sample details.</span>
+            </div>
+
+            <div class="visit-card">
+                <span class="visit-icon">✉</span>
+                <h3>Get in Touch</h3>
+                <p>hello@maison.example<br>+91 98765 43210</p>
+                <a href="mailto:hello@maison.example" class="text-link">Send Us a Message ↗</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="#home" class="logo">MAISON<span>.</span></a>
+        <p>Good food. Good company. Beautiful moments.</p>
+        <div class="footer-links">
+            <a href="#about">Our Story</a>
+            <a href="#menu">Menu</a>
+            <a href="#reservation">Reservations</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <p class="copyright">© 2026 Maison Restaurant. Demo website.</p>
+    </footer>
+
+</body>
+</html>
+
